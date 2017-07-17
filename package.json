@@ -1,11 +1,8 @@
 {
   "name": "vue-event-bus",
   "version": "1.0.0",
-  "description": "A easy event bug for vue.js",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Simple event bus for vue.js/简单的vue event bus",
+  "main": "src/VueEventBus.js",
   "keywords": [
     "vue",
     "eventbus"
