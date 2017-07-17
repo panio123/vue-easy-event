@@ -64,6 +64,23 @@ npm i vue-event-bus
 ### Usage
 
 ``` js
+
+//webpack
+import Vue from 'vue';
+import EventBus from 'vue-easy-event';
+Vue.use(EventBus);
+
+
+```
+#### or
+
+``` html
+
+<script src="../node_modules/vue-easy-event/src/VueEventBus.js"></script>
+
+```
+
+``` js
 Vue.component('child', {
     template: '#child',
     data: function () {

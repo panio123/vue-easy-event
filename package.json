@@ -1,13 +1,21 @@
 {
-  "name": "vue-event-bus",
+  "name": "vue-easy-event",
   "version": "1.0.0",
   "description": "Simple event bus for vue.js/简单的vue event bus",
-  "main": "src/VueEventBus.js",
+  "main": "./src/VueEventBus.js",
+  "readme": "README.md",
   "keywords": [
     "vue",
+    "vue2",
+    "vue.js",
+    "vue-event-bus",
     "eventbus"
   ],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/panio123/vue-easy-event.git"
+  },
+  "author": "liupan <panio123@qq.com>",
   "license": "ISC",
   "dependencies": {
     "vue": "^2.4.1"
