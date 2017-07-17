@@ -12,6 +12,8 @@ npm i vue-event-bus
 
 ### `Eon`
 
+#### 监听事件，传入事件名称(event)和句柄(handle)
+
 ``` js
 
     // @event - string
@@ -21,6 +23,8 @@ npm i vue-event-bus
 ```
 
 ### `Eonce`
+
+#### 监听一次
 
 ``` js
 
@@ -32,6 +36,8 @@ npm i vue-event-bus
 
 ### `Eoff`
 
+#### 取消监听，传入事件名称和句柄
+
 ``` js
 
     // @event - string
@@ -42,6 +48,8 @@ npm i vue-event-bus
 
 ### `Etrigger`
 
+#### 触发事件，传入事件名称，需要传递参数时使用data
+
 ``` js
 
     // @event - string
@@ -49,6 +57,9 @@ npm i vue-event-bus
     this.Etrigger(event,data);
 
 ```
+
+### 匿名函数可以监听，但是无法取消监听。
+
 
 ### Usage
 
@@ -99,3 +110,5 @@ var vm2 = new Vue({
 });
 
 ```
+
+### evet bus 虽然方便，但是仅仅适合非常小型简单的项目，否则还请使用vuex
