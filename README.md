@@ -4,7 +4,7 @@
 
 ``` bash
 
-npm i vue-event-bus
+npm i vue-easy-event
 
 ```
 
@@ -76,7 +76,7 @@ Vue.use(EventBus);
 
 ``` html
 
-<script src="../node_modules/vue-easy-event/src/VueEventBus.js"></script>
+<script src="../node_modules/vue-easy-event/src/vue-easy-event.js"></script>
 
 ```
 
